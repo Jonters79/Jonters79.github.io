@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+header {
+	background: #ffed74;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+nav {
+	background: #E8C66A;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+section {
+	background: #E89C6C;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+footer {
+	background: #FF957E;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+div {
+	background: #FFE2B8;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.folio-preview-thumb {
+	width: 300px;
+	height: 250px;
+}
+
+.single-service {
+	width: 25em;
+}
+
+#homepage-about p {
+	width: 25em;
+}
