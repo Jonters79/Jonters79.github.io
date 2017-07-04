@@ -1,0 +1,498 @@
+/*
+
+* 1. FONTS
+* 2. RESETS
+* 3. PAGE STRUCTURE
+* 4. TYPOGRAPHY
+* 5. FORMS
+* 6. IDs
+* 7. CLASSES
+
+*/
+
+
+
+
+/* 1. FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:100,200,300,400,500,600,700,800,900');
+
+
+
+
+/* 2. RESETS */
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+
+
+
+/* 3. PAGE STYLES */
+
+
+body {
+/*	background: #295968;*/
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+
+
+header {
+	margin: 0 auto;
+	width: 100%;
+	background-color: #052B3B;
+	height: 3.12em;
+}
+
+
+header .content {
+	padding: .8em 0 .6em 0;
+}
+
+
+nav {
+	display: inline-block;
+	float: right;
+}
+
+
+nav a {
+	margin-left: 1.8em;
+	color: #fff;
+	font-weight: 300;
+}
+
+
+footer {
+	padding: 4em 0;
+	background: #4a4a4a;
+}
+
+
+a {
+	text-decoration: none;
+	color: #A2D6E8;
+}
+
+
+ul {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+
+
+
+/* 4. TYPOGRAPHY */
+
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	color: #38B4BF;
+	padding-bottom: 0.3em;
+	text-transform: uppercase;
+}
+
+
+h2 {
+	font-family: 'Roboto Condensed', serif;
+	font-size: 2.25em;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	color: #38B4BF;
+	padding-bottom: 0.6em;
+}
+
+
+h3 {
+	font-family: 'Roboto Condensed', serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	color: #fff;
+	padding-bottom: 0.6em;
+}
+
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	font-weight: 300;
+}
+
+
+#services h3 {
+	color: #424242;
+}
+
+
+
+
+/* 5. FORMS */
+
+
+form {
+	display: inline-block;
+	margin: 1.8em 0 0;
+	width: 100%;
+}
+
+
+input {
+	width: 100%;
+	height: 2.5em;
+	display: block;
+	border: 1px solid #295968;
+	border-bottom: 1px solid #38B4BF;
+	background: rgba(256,256,256,0.2);
+	border-radius: 2px;
+	margin: 0.6em 0 1.5em 0;
+	font-size: 1em;
+	font-weight: 300;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+input::-webkit-input-placeholder {
+	color: #fff;
+	position: relative;
+	left: 1.25em;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+input[type=submit] {
+	color: #fff;
+	border-radius: 50px;
+	border: 1px solid #A2D6E8;
+	background: none;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+
+input:focus {
+	outline: none;
+}
+
+/*input .btn-submit {
+	width: 250px;
+	padding: 10px 10px 10px 10px;
+	border: #A2D6E8 solid 1px;
+	border-radius: 50px;
+	background-color: rgba(0,0,0,0);
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}*/
+
+
+
+
+/* 6. IDs */
+
+
+#site-logo {
+	text-align: left;
+	font-weight: 400;
+	width: 25%;
+	margin: 0;
+	color: #38B4BF;
+	display: inline-block;
+	float:left;
+}
+
+
+#homepage-headline {
+	text-align: center;
+	padding: 4em 0 0 0;
+	font-size: 3.25em;
+}
+
+
+#homepage-hero {
+	background: url('../images/carl-heyerdahl-181868.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 28em;
+	margin: 0 0 6.25em 0;
+}
+
+
+/*#homepage-hero:after {
+	content: "";
+	background: url('../images/carl-heyerdahl-181868.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+	z-index: 1;
+	top: 50px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 450px;
+	position: absolute;
+}*/
+
+
+#slogan {
+	font-style: italic;
+	padding: 1.5em 0 0 0;
+	text-align: center;
+	display: block;
+}
+
+
+#homepage-about p {
+	color: #404040;
+}
+
+
+#services {
+	line-height: 2.25em;
+	color: #404040;
+	padding: 6.25em 0 6.25em 0;
+}
+
+
+#services > .content-inner {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/*#services > .content-inner:last-child {
+	margin-left: 0 !important;
+}*/
+
+
+#folio-preview-gallery {
+	width: 100%;
+}
+
+
+
+#folio-preview-gallery img {
+	height: 18em;
+	width: 33.33%;
+}
+
+#folio {
+	padding: 6.25em 0 6.25em 0;
+	background-color: #f3f3f3;
+	width: 100%;
+}
+
+
+#content-wrapper {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 9.3em;
+}
+
+
+#contact {
+	background-color: #052B37;
+	height: 31em;
+	padding: 6.25em 0 6.25em 0;
+}
+
+#contact-form {
+	display: block;
+	text-align: center;
+	width: 25%;
+}
+
+
+#pre-footer {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #1f1f1f;
+	padding: 1.2em 0 1.2em 0;
+}
+
+
+
+
+/* 7. CLASSES */
+
+
+.content {
+	margin: 0 auto;
+	width: 90%;
+}
+
+
+.content-inner {
+	margin: 0 auto;
+	width: 60%;
+}
+
+
+.single-service {
+	width: 29%;
+	display: inline-block;
+	margin: 1.25em 1.25em 1.25em 1.25em;
+	vertical-align: text-top;
+}
+
+
+.single-service:nth-child(2) {
+	margin-left: 0;
+}
+
+
+.single-service:nth-child(4) {
+	margin-right: 0;
+}
+
+
+.main-img {
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	margin-bottom: 4.6em;
+}
+/*
+.img-banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -200px;
+}*/
+
+
+/*.folio-preview-thumb {
+	width: 29%;
+	height: 15em;
+	display: inline-block;
+}*/
+
+
+.btn {
+	width: 25%;
+	padding: 0.6em 0.6em 0.6em 0.6em;
+	border: #A2D6E8 solid 1px;
+	border-radius: 50px;
+	background-color: rgba(0,0,0,0);
+	font-size: 0.87em;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn-submit {
+	width: 50%;
+	padding: 0.6em 0.6em 0.6em 0.6em;
+	border: #A2D6E8 solid 1px;
+	border-radius: 50px;
+	background-color: rgba(0,0,0,0);
+	font-size: 0.87em;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+	display: block;
+	margin: 0 auto;
+	transition: 0.3s ease;
+}
+
+.btn-submit:hover {
+	background-color: rgba(0,0,0,0.25);
+	cursor: pointer;
+}
+
+.social-icon {
+	color: #fff;
+	font-size: 1.12em;
+	border-radius: 50px; 
+	border: 1px solid #fff; 
+	display: inline-block; 
+	text-align: center;
+}
+
+
+.fa {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0.6em 0.6em 0.6em 0.6em;
+	margin: 0 0.3em 0 0.3em;
+	transition: 0.7s ease;
+}
+
+.fa:hover {
+	background-color: rgba(256,256,256,1);
+	color: #000;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	
+	header {
+		height: 6em;
+	}
+
+	nav {
+		display: block;
+		float: none;
+		margin: 1em 0 0 0;
+	}
+
+	nav a {
+		margin: .5em;
+	}
+
+	form {
+		width: 90%;
+	}
+
+	#site-logo {
+		width: 50%;
+		margin: 0 auto;
+		float: none;
+		text-align: center;
+	}
+
+	#contact-form {
+		width: 90%;
+	}
+
+	.btn {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.single-service, .single-service:nth-child(2), .single-service:nth-child(4) {
+		width: auto;
+		display: block;
+		margin: 1.25em 1.25em 1.25em 1.25em;
+		vertical-align: text-top;
+	}
+
+	.content-inner {
+		margin: 0 auto;
+		width: 90%;
+	}
+
+}
+
