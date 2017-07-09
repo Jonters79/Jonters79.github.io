@@ -446,6 +446,25 @@ input:focus {
 }
 
 
+@media only screen and (min-width: 1600px) {
+	#folio-preview-gallery {
+		width: 50%;
+	}
+}
+
+
+@media only screen and (min-width: 1060px) and (max-width: 1600px) {
+	.content-inner {
+		width: 50%;
+	}
+
+	#folio-preview-gallery {
+		width: 75%;
+	}
+
+}
+
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	
 	header {
