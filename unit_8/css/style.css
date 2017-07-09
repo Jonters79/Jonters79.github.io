@@ -236,6 +236,8 @@ input:focus {
 	background-size: cover;
 	height: 28em;
 	margin: 0 0 6.25em 0;
+	background-color: #444444;
+  	background-blend-mode: soft-light;
 }
 
 
@@ -458,9 +460,9 @@ input:focus {
 		width: 50%;
 	}
 
-	#folio-preview-gallery {
+/*	.folio-preview-gallery {
 		width: 75%;
-	}
+	}*/
 
 }
 
